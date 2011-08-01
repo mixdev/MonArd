@@ -1,0 +1,14 @@
+MonArd
+----------
+MonArd lets you visually display the CPU and RAM consumption of a server using few LEDs
+
+
+monard.php
+This is the server script. Runs only on *nix
+
+monard_client.php
+Requires PHP serial as well as cURL extension. Run as a commandline daemon 
+
+
+Arduino Sketch
+This is the program that controlls the LED bargraph. After the 4th LED, it triggers the buzzer too.
